@@ -64,7 +64,7 @@ ul li {
 .box1 img {
     width: 35%;
     /*Adjustedwidth*/border-radius: 50%;
-     /* Make the image round */:;
+     /* Make the image round */
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
