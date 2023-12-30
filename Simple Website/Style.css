@@ -1,5 +1,72 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(5, 28, 54);
+}
+
+div {
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center vertically */
+    color: white;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin: 8px; /* Adjusted margin */
+    padding: 10px; /* Adjusted padding */
+    list-style-type: none;
+}
+
+.search {
+    padding: 8px; /* Adjusted padding */
+    text-align: center;
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.header1 {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjusted height */
+}
+
+.box {
+    height: 400px; /* Adjusted height */
+    width: 90%;
+    border: 2px solid black;
+    background-color: rgb(99, 9, 163);
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow for rounded corners */
+}
+
+.box1 {
+    text-align: center;
+    padding: 20px; /* Adjusted padding */
+}
+
+.box1 img {
+    width: 35%;
+    /*Adjustedwidth*/border-radius: 50%;
+     /* Make the image round */:;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
